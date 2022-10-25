@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :restaurants, except: [:index, :show]
+  resources :restaurants
   # # Syntax
   # # Verb # Url            # Controller # Action
   # # See all restaurants
